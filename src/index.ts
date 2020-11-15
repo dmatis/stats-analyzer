@@ -14,3 +14,6 @@ consoleSummary.buildAndPrintReport(matchReader.matches);
 
 const htmlSummary = Summary.winsAnalysisHtmlReport('Man United');
 htmlSummary.buildAndPrintReport(matchReader.matches);
+
+const consoleAverageGoalsSummary =  Summary.averageGoalsAnalysisConsoleReport('Leicester');
+consoleAverageGoalsSummary.buildAndPrintReport(matchReader.matches);
